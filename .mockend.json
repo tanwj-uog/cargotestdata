@@ -1,8 +1,10 @@
 {
-  "cargo": {
+  "Post": {
     "description": "string",
     "length": "int",
     "width": "int",
     "height": "int",
+    "published": "boolean",
+    "createdAt": "date"
   }
 }
