@@ -1,20 +1,13 @@
 {
-  "cargo": [
-    {
-      "id" : 1,
-      "description" : "fruits",
-      "length" : "100",
-      "width" : "100",
-      "height" : "100"
-    },
-    
-    {
-      "id" : 2,
-      "description" : "computers",
-      "length" : "200",
-      "width" : "200",
-      "height" : "200"
-    }
-    
-  ]
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
