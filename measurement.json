@@ -1,5 +1,11 @@
 {
-    "length": "10",
-    "height": "10",
-    "width": "10"
+  "cargo": [
+    {
+      "id" : 1,
+      "description" : "fruits",
+      "length" : "100",
+      "width" : "100",
+      "height" : "100"
+    }
+  ]
 }
